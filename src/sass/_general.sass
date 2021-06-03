@@ -1,0 +1,417 @@
+header
+	position: relative
+
+nav
+	height: 74px
+	background: #212121
+
+.hamburher
+	display: none
+
+.menu
+	display: flex
+	justify-content: space-between
+	padding: 25px 70px
+	margin: 0
+	list-style-type: none
+	&_link
+		font-weight: 300
+		font-size: 15px
+		display: flex
+		align-items: center
+		text-align: center
+		text-transform: uppercase
+		color: #FFFFFF
+	&_item
+		border-right: 2px dotted black
+		padding-right: 45px
+		&:last-child
+			border-right: none
+
+.subheader
+	position: absolute
+	top:  50px
+	width: 100%
+	height: 84px
+	background-color: rgba(0, 0, 0, 0.6)
+	&_logo
+		display: block
+		max-width: 100%
+		margin-top: 17px
+	&_call
+		margin-top: 19px
+		font-weight: 300
+		font-size: 12px
+		color: #FFFFFF
+		text-align: right
+	&_phone
+		display: block
+		margin-top: 8px
+		font-size: 22px
+		font-weight: 400
+		text-align: right
+		text-transform: uppercase
+		color: #FFFFFF
+		line-height: 12px
+	&_btn
+		margin-top: 17px
+		width: 172px
+		height: 46px
+		left: 1370px
+		top: 88px
+		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+		border: none
+		border-radius: 4px
+		box-shadow: inset 0px -3px 0px 3px rgba(0, 0, 0, 0.12)
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		color: #FFFFFF
+		+btn_hover
+
+.promo
+	min-height: 800px
+	background: url(../img/bacground1.jpg) center (center / cover) no-repeat
+	padding: 150px 0 150px 0
+	&_header
+		font-weight: 900
+		font-size: 60px
+		text-transform: uppercase
+		color: #FFFFFF
+		line-height: 60px
+		margin: 0
+		text-align: center
+	&_subheader
+		font-weight: 700
+		font-size: 36px
+		text-transform: uppercase
+		color: #FFFFFF
+		line-height: 36px
+		margin: 0
+		margin-top: 22px
+		text-align: center
+	&_descr
+		margin-top: 16px
+		font-size: 18px
+		font-weight: 400px
+		line-height: 24px
+		text-align: center
+		color: #FFFFFF
+	&_btn
+		display: block
+		margin: 118px auto 0 auto
+		width: 259px
+		height: 63px
+		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+		border: none
+		border-radius: 4px
+		box-shadow: inset 0px -4px 0px 3px rgba(0, 0, 0, 0.12)
+		font-size: 18px
+		font-weight: 400
+		align-items: center
+		text-align: center
+		text-transform: uppercase
+		color: #FFFFFF
+		+btn_hover
+
+.label
+	position: relative
+	margin: 0 auto
+	margin-top: 50px
+	width: 115px
+	height: 27px
+	padding: 6px 12px
+	background: #000000
+	font-size: 11px
+	font-weight: 400
+	align-items: center
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
+	z-index: 2
+	&_white
+		background: #FFFFFF
+		color: #000000
+
+
+
+.title
+	position: relative
+	margin-bottom: 0
+	margin-top: 38px
+	font-weight: 700px
+	font-size: 38px
+	line-height: 48px
+	align-items: center
+	text-align: center
+	text-transform: uppercase
+	color: #222222
+	z-index: 2
+	&_white
+		color: #FFFFFF
+
+
+.subtitle 
+	position: relative
+	margin-top: 18px
+	font-size: 17px
+	font-weight: 400px
+	text-align: center
+	color: #222222
+	z-index: 2
+	&_white
+		color: #FFFFFF
+
+
+.reason 
+	padding: 71px 0 65px 30px 
+	&_block
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 35px
+	&_round
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-right: 26px
+		width: 113px
+		height: 113px
+		background: $main-color
+		border-radius: 100%
+	&_descr
+		width: 371px
+	&_subtitle
+			font-weight: 300px
+			font-size: 17px
+			line-height: 21px
+			color: #1EACC7
+	&_text
+			font-weight: 300
+			font-size: 15px
+			line-height: 21px
+			color: #202020
+
+.mobile
+	min-height: 864px
+	padding: 48px 0 79px 0
+	.row
+		margin-top: 32px
+	&_item
+		position: relative
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		&_1
+			background: url(../img/mobil_app/mobil-app1.jpg) center (center / cover) no-repeat
+		&_2
+			background: url(../img/mobil_app/mobil-app2.jpg) center (center / cover) no-repeat
+		&_3
+			background: url(../img/mobil_app/mobil-app3.jpg) center (center / cover) no-repeat
+		&_4
+			background: url(../img/mobil_app/mobil-app4.jpg) center (center / cover) no-repeat
+		&_5
+			background: url(../img/mobil_app/mobil-app5.jpg) center (center / cover) no-repeat
+		&_6
+			background: url(../img/mobil_app/mobil-app6.jpg) center (center / cover) no-repeat
+		&_subtitle
+			font-weight: normal
+			font-size: 24px
+			line-height: 31px
+			align-items: center
+			text-align: center
+			text-transform: uppercase
+			color: #ffffff	
+		&_plus
+			display: flex
+			justify-content: center
+			align-items: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translate(-50%)
+			width: 29px
+			height: 29px
+			background: #000000
+			margin: 0 auto
+			border-radius: 100%
+			cursor: pointer
+			&:before
+				content: ''
+				width: 14px
+				height: 2px
+				background-color: $main-color
+			&:after
+				content: ''
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				width: 2px
+				height: 14px
+				background-color: $main-color
+			&:hover
+				&:before, &:after
+					background-color: $second-color
+					transition: 0.3s all
+
+.choise
+	position: relative
+	min-height: 899px
+	padding: 58px 0 138px 0
+	
+	&_img
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+		
+	&_descr
+		font-weight: 400px
+		font-size: 17px
+		line-height: 24px
+		align-items: center
+		text-align: center
+		color: #222222
+	.black //помилка?
+		position: absolute
+		top: 0
+		left: 0
+		height: 502px
+		width: 100%
+		background: #070716
+		z-index: 1
+
+.require
+	padding: 68px 0 84px 0
+	&_block
+		margin: 33px 0
+		&:nbn
+			margin-bottom: none
+	&_title
+		font-weight: 400px
+		font-size: 22px
+		color: #1CA8C3
+
+		
+	&_list
+		list-style-type: none
+		padding-left: 51px
+		li
+			position: relative
+			font-weight: 300
+			font-size: 17px
+			color: #222222
+			margin-bottom: 10px
+			&::before
+				content: ''
+				position: absolute
+				display: block
+				left: -32px
+				top: 3px
+				width: 20px
+				height: 20px
+				background: url(../icons/done1.png) center (center / cover) no-repeat
+	&_descr
+		margin-top: 25px
+		font-weight: 300
+		font-size: 17px
+		color: #1CA8C3
+	.attention
+		.require_title
+			color: $second-color
+		.require_list
+			li
+				&::before
+					background: url(../icons/done2.png) center (center / cover) no-repeat
+
+.town
+	position: relative
+	min-height: 720px;
+	background: url('../img/bacground-town.jpg') center (center / cover) no-repeat
+	padding: 50px 0
+	&_see-all
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		bottom: 50px
+		text-align: center
+		text-transform: uppercase
+		font-weight: 400px
+		font-size: 15px
+		color: #1FBAD6
+		&:hover
+			text-decoration: none
+			color: #ffffff
+
+.footer
+	min-height: 140px
+	background-color: #ffffff
+	padding: 14px 23px 39px 23px
+	a
+		&:hover
+			text-decoration: none
+
+.footer
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: #1FBAD6
+		margin: 0 auto
+	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-content: flex-start
+		padding-top: 32px
+	&_wrapper > div
+		width: 33%
+		&:nth-child(3)
+			display: flex
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item
+			display: flex
+			justify-content: center
+			align-items: center
+			margin: 0 4px
+			width: 32px
+			height: 32px
+			background-color: black
+			border-radius: 100%
+			i
+				color: #ffffff
+	&_link
+		width: 390px
+		margin: 0 auto
+		&_main
+			display: flex
+			justify-content: space-between
+			padding: 0 10px
+			a
+				font-weight: 400px
+				font-size: 15px
+				text-transform: uppercase
+				color: #070716
+		&_sub
+			display: flex
+			justify-content: space-between
+			a
+				font-weight: 400px
+				font-size: 11px
+				text-transform: uppercase
+				color: #999999
+		&_language
+			display: block
+			margin: 0 auto
+			font-weight: 400px
+			font-size: 11px
+			margin-top: 19px
+			text-transform: uppercase
+			color: #1FBAD6
+			text-align: center
+.xs-visible
+	display: none
